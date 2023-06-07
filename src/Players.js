@@ -1,7 +1,6 @@
 import React from 'react'
 import { Players } from "./shared/ListOfPlayers"
 export default function Player() {
-
     return (
         <div className='container'>
             {Players.map((player) => (
